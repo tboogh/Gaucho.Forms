@@ -127,9 +127,6 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MainActivity.cs.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Gaucho.Forms.Android\Gaucho.Forms.Android.csproj">
       <Project>{D5583427-D9B5-4DD4-B673-DAE9E80C06EC}</Project>
       <Name>Gaucho.Forms.Android</Name>

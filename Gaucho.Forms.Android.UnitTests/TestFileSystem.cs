@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Gaucho.Forms.Android.Services;
+using Gaucho.Forms.Core.FileSystem;
 using Gaucho.Forms.Core.Services;
 using Java.IO;
 using NUnit.Framework;
 using File = System.IO.File;
-using FileMode = Gaucho.Forms.Core.Services.FileMode;
+using FileMode = Gaucho.Forms.Core.FileSystem.FileMode;
 
 namespace Gaucho.Forms.Android.UnitTests {
     [TestFixture]

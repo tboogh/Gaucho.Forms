@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Gaucho.Forms.Core.Services {
+namespace Gaucho.Forms.Core.FileSystem {
     public enum StorageLocation {
         AppResource,
         Documents,

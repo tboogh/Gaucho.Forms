@@ -1,8 +1,9 @@
 using System;
 using System.IO;
 using Android.App;
+using Gaucho.Forms.Core.FileSystem;
 using Gaucho.Forms.Core.Services;
-using FileMode = Gaucho.Forms.Core.Services.FileMode;
+using FileMode = Gaucho.Forms.Core.FileSystem.FileMode;
 
 namespace Gaucho.Forms.Android.Services {
     public class FileSystem : IFileSystem {
