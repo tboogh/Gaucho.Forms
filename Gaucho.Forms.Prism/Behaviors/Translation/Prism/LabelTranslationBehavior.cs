@@ -1,6 +1,6 @@
 using Xamarin.Forms;
 
-namespace Gaucho.Forms.Core.Behaviors.Translation.Prism
+namespace Gaucho.Forms.Prism.Behaviors.Translation.Prism
 {
     public class LabelTranslationBehavior : TranslationBehavior<Label>
     {

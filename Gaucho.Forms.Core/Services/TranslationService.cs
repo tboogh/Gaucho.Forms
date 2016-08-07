@@ -8,10 +8,16 @@ namespace Gaucho.Forms.Core.Services
 {
     public class TranslationService : ITranslationService
     {
-        protected readonly Dictionary<string, Language> Languages = new Dictionary<string, Language>();
         private ILanguage _currentLanguage;
         private Task _loadLanguagesTask;
+
+        public TranslationService()
+        {
+            Languages = new Dictionary<string, Language>();
+        }
+
         public bool IsIntitialized => Languages.Count > 0;
+        public  Dictionary<string, Language> Languages { get; }
 
         public ILanguage CurrentLanguage
         {
@@ -23,7 +29,7 @@ namespace Gaucho.Forms.Core.Services
             }
         }
 
-        public Task LoadLanguages()
+        public virtual Task LoadLanguages()
         {
             if (_loadLanguagesTask?.IsCompleted ?? true)
             {
