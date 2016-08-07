@@ -49,6 +49,7 @@
     <Compile Include="Services\ITranslationService.cs" />
     <Compile Include="Services\Prism\TranslationService.cs" />
     <Compile Include="Services\TranslationService.cs" />
+    <Compile Include="Views\Cells\Prism\TranslatedTextCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

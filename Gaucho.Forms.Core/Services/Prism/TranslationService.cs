@@ -28,7 +28,7 @@ namespace Gaucho.Forms.Core.Services.Prism
 
         public override void LanguageChanged(ILanguage languageCode)
         {
-            _eventAggregator.GetEvent<LanguageChangedEvent>().Publish(languageCode);
+            
         }
 
         private async Task LoadLocalLanguage(string filename)

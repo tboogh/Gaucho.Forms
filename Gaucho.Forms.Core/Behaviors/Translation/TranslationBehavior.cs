@@ -26,7 +26,17 @@ namespace Gaucho.Forms.Core.Behaviors.Translation
         {
             base.OnAttachedTo(bindable);
             Target = bindable;
+
+            if (Target == null)
+                return;
+
             TranslateTarget(Key, Format);
+        }
+
+        protected override void OnDetachingFrom(T bindable)
+        {
+            base.OnDetachingFrom(bindable);
+            Target = null;
         }
     }
 }

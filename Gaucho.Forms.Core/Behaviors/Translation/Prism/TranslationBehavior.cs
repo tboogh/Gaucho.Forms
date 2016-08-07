@@ -25,6 +25,9 @@ namespace Gaucho.Forms.Core.Behaviors.Translation.Prism
 
         public void OnLanguageChanged(ILanguage language)
         {
+            if (Target == null)
+                return;
+
             TranslateTarget(Key, Format);
         }
     }
