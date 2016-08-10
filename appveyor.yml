@@ -1,14 +1,13 @@
 version: 1.0.{build}
 nuget:
   account_feed: true
-build_script:
-- cmd: >-
-    version: 1.0.{build}
 
-  branches:
-    # whitelist
-    only:
-      - master
+version: 1.0.{build}
+
+branches:
+  # whitelist
+  only:
+    - master
       
 before_build:
   - nuget restore
