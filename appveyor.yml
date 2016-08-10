@@ -14,5 +14,8 @@ before_build:
   
 after_build:
   - nuget pack Gaucho.Forms.nuspec
+  
+artifacts:
+  - path: '**\*.nupkg'
 test:
   assemblies: Gaucho.Forms.Core.UnitTests\bin\Debug\Gaucho.Forms.Core.UnitTests.dll
