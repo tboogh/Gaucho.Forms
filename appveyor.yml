@@ -13,7 +13,7 @@ before_build:
   - nuget restore
   
 after_build:
-  - nuget pack Gaucho.Forms.nuspec -Version "{version}"
+  - nuget pack Gaucho.Forms.nuspec -Version %APPVEYOR_BUILD_VERSION%
   
 artifacts:
   - path: 'Gaucho.Forms.1.0.nupkg'
