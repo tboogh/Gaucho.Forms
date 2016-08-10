@@ -15,12 +15,7 @@ before_build:
 after_build:
   - nuget pack Gaucho.Forms.nuspec
   
-deploy:
-  - provider: NuGet
-    symbol_server: %ACCOUNT_FEED%
-    api_key:
-      secure: %SECRET_KEY%
-    artifact: /.*\.symbols\.nupkg/
-    
+artifacts:
+  - path: '**\*.nupkg'
 test:
   assemblies: Gaucho.Forms.Core.UnitTests\bin\Debug\Gaucho.Forms.Core.UnitTests.dll
