@@ -19,7 +19,7 @@ namespace Gaucho.Forms.Core.Behaviors.Translation
             set { SetValue(FormatProperty, value); }
         }
 
-        public static T Target { get; set; }
+        public T Target { get; set; }
         public abstract void TranslateTarget(string key, string format);
 
         protected override void OnAttachedTo(T bindable)

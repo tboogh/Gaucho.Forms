@@ -3,10 +3,11 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using Foundation;
+using Gaucho.Forms.Core.FileSystem;
 using Gaucho.Forms.Core.Services;
 using Gaucho.Forms.iOS.Services;
 using NUnit.Framework;
-using FileMode = Gaucho.Forms.Core.Services.FileMode;
+using FileMode = Gaucho.Forms.Core.FileSystem.FileMode;
 
 namespace Gaucho.Forms.iOS.UnitTests {
     [TestFixture]

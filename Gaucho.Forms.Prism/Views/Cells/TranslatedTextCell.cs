@@ -1,13 +1,12 @@
-﻿using System;
-using Gaucho.Forms.Core.Models;
+﻿using Gaucho.Forms.Core.Models;
 using Gaucho.Forms.Core.Services;
-using Gaucho.Forms.Core.Services.Prism;
+using Gaucho.Forms.Prism.Services;
 using Microsoft.Practices.Unity;
 using Prism.Events;
 using Prism.Unity;
 using Xamarin.Forms;
 
-namespace Gaucho.Forms.Core.Views.Cells.Prism
+namespace Gaucho.Forms.Prism.Views.Cells
 {
     public class TranslatedTextCell : TextCell
     {
