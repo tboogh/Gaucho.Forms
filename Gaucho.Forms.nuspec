@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>Gaucho.Forms</id>
-    <version>1.0.0-pre1</version>
+    <version>$version$</version>
     <authors>Tobias Boogh</authors>
     <owners>Tobias Boogh</owners>
     <licenseUrl>https://github.com/tboogh/Gaucho.Forms/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/tboogh/Gaucho.Forms</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Xamarin.Forms utilities</description>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>Prerelase</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>gaucho xaml xamarin xamarin.forms</tags>
     <dependencies>
