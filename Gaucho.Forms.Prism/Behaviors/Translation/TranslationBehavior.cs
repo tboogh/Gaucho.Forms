@@ -6,7 +6,7 @@ using Prism.Events;
 using Prism.Unity;
 using Xamarin.Forms;
 
-namespace Gaucho.Forms.Prism.Behaviors.Translation.Prism
+namespace Gaucho.Forms.Prism.Behaviors.Translation
 {
     public abstract class TranslationBehavior<T> : Core.Behaviors.Translation.TranslationBehavior<T> where T : BindableObject
     {

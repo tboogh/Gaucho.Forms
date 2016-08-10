@@ -125,7 +125,6 @@ namespace Gaucho.Forms.Android.UnitTests {
             switch (location) {
                 case StorageLocation.AppResource:
                     throw new NotImplementedException();
-                    break;
                 case StorageLocation.Documents:
                     await CreateTestByteFileInternal(TestBytes);
                     break;
@@ -177,7 +176,7 @@ namespace Gaucho.Forms.Android.UnitTests {
             var file = context.OpenFileOutput(Filename, FileCreationMode.Private);
             try {
                 await file.WriteAsync(bytes, 0, bytes.Length);
-            } catch (Exception e) {
+            } catch (Exception) {
                 
             }
             

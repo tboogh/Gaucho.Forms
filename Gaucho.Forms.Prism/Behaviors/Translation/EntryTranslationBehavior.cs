@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Gaucho.Forms.Prism.Behaviors.Translation.Prism
+namespace Gaucho.Forms.Prism.Behaviors.Translation
 {
     public class EntryTranslationBehavior : TranslationBehavior<Entry>
     {
