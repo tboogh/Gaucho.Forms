@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Gaucho.Forms</id>
-    <version>$version$</version>
+    <version>1.0</version>
     <authors>Tobias Boogh</authors>
     <owners>Tobias Boogh</owners>
     <licenseUrl>https://github.com/tboogh/Gaucho.Forms/blob/master/LICENSE</licenseUrl>
