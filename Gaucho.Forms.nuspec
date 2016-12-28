@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Gaucho.Forms</id>
-    <version>1.0.1</version>
+    <id>@project@</id>
+    <version>@build.number@</version>
     <authors>Tobias Boogh</authors>
     <owners>Tobias Boogh</owners>
     <licenseUrl>https://github.com/tboogh/Gaucho.Forms/blob/master/LICENSE</licenseUrl>
@@ -31,10 +31,5 @@
       </group>
     </dependencies>
   </metadata>
-  <files>
-		<file src="Gaucho.Forms.Core\bin\Release\Gaucho.Forms.*" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\" exclude="**\*.pdb" />
-		<file src="Gaucho.Forms.iOS\bin\Release\Gaucho.Forms.*" target="lib\Xamarin.iOS1.0\" exclude="**\*.pdb" />
-		<file src="Gaucho.Forms.iOS\bin\Release\Gaucho.Forms.*" target="lib\MonoTouch1.0\" exclude="**\*.pdb" />
-		<file src="Gaucho.Forms.Android\bin\Release\Gaucho.Forms.*" target="lib\MonoAndroid1.0\" exclude="**\*.pdb" />
-	</files>
+  @files@
 </package>
